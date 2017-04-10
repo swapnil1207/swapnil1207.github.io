@@ -63,6 +63,58 @@ p {
 }
     
 
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	
+  }
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}  
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  
+    #contact{
+    margin: -30px;
+    padding: 20%;
+    height:100vh;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+    
+}
+    
+
+}
+
+
+@media screen and (max-width:680px) {
+  .mainNav li a{
+    font-size: 12px;
+    padding: 5px;
+    font-weight: 700;
+  }
+
+
+
+
+
+
 
 
 

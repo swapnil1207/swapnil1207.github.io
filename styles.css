@@ -112,7 +112,7 @@ p {
 
 @media screen and (max-width:680px) {
     
-    #nav{
+    .navbar{
         height:100vh;
         width:100vh;
     -moz-background-size:100% 100%;

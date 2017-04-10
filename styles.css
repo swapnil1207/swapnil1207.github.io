@@ -91,8 +91,7 @@ p {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-    {
-      
+          
     
     #contact{
     margin: -30px;
@@ -110,13 +109,7 @@ p {
 
 @media screen and (max-width:680px) {
     
-    .navbar{
-        body { padding-top: 0px; }
-        max-width:100vw;
-}
-    body{
-            width:100vw;  
-          }
+    
   #contact{
     margin: -30px;
     padding: 20%;

@@ -88,7 +88,14 @@ p {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-  
+    #nav{
+        height:100vh;
+        width:100vh;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+    }
+    
     #contact{
     margin: -30px;
     padding: 20%;
@@ -104,11 +111,23 @@ p {
 
 
 @media screen and (max-width:680px) {
-  .mainNav li a{
-    font-size: 12px;
-    padding: 5px;
-    font-weight: 700;
-  }
+    
+    #nav{
+        height:100vh;
+        width:100vh;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+    }
+  #contact{
+    margin: -30px;
+    padding: 20%;
+    height:100vh;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+    }
+}
 
 
 

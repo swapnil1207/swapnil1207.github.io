@@ -1,9 +1,10 @@
-body{
-    width:100vw;
-}
+
 
 .background{font-family:Lobster;}
-
+.navbar-fixed-top{
+    width=100%;
+    width=100vw;
+}
 .redtext
 {text-align:center;
 color:red;
@@ -85,14 +86,18 @@ p {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-	
+	 .graph{
+        width:100vw;
+    }
 
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
           
-    
+    .graph{
+        width:100vw;
+    }
     #contact{
     margin: -30px;
     padding: 20%;
@@ -109,6 +114,9 @@ p {
 
 @media screen and (max-width:680px) {
     
+     .graph{
+        width:100vw;
+    }
     
   #contact{
     margin: -30px;

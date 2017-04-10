@@ -1,7 +1,9 @@
 
 
 .background{font-family:Lobster;}
-
+.navbar-toggle{
+    position: fixed;
+}
 
 .redtext
 {text-align:center;

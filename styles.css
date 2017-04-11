@@ -114,11 +114,10 @@ p {
          
   
     #Home{
-        padding-top:70px;
+        padding-top:50%;
     }
 
-    .graph{
-        width:100px;
+    
     }
     #contact{
     margin: -30px;
@@ -136,12 +135,10 @@ p {
 @media screen and (max-width:680px) {
     
        #Home{
-        padding-top:70px;
+        padding-top:50%
     }
 
-    .graph{
-        width:100px;
-    }
+    
   
   #contact{
     margin: -30px;

@@ -21,9 +21,6 @@ p {
     font-family:Monospace;
     
   }
-.container-fluid{
-    width:100vw;
-}
 
 #Home {
     background: url('img/home.jpg')no-repeat;

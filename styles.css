@@ -34,6 +34,8 @@ p {
     height: 100vh;
     width:100vw;
     margin-left:-20px;
+    margin-right:-10px;
+    padding:30%;
     
 }
     
@@ -49,6 +51,7 @@ p {
     background-color: black;
     background-size:cover;
      background-attachment: fixed;
+    height:100vh;
 
 }
 #contact {

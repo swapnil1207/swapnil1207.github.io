@@ -35,7 +35,7 @@ p {
     width:100vw;
     margin-left:-20px;
     margin-right:-10px;
-    padding:30%;
+    padding-top:30px;
     
 }
     
@@ -50,7 +50,7 @@ p {
 #work{
     background-color: black;
     background-size:cover;
-     background-attachment: fixed;
+    background-attachment: fixed;
     height:100vh;
 
 }
@@ -113,10 +113,12 @@ p {
 @media (max-width: 479px) {
          
   
-  
+    #Home{
+        padding-top:70px;
+    }
 
     .graph{
-        width:100vw;
+        width:100px;
     }
     #contact{
     margin: -30px;
@@ -132,11 +134,15 @@ p {
 }
 
 @media screen and (max-width:680px) {
-  
-     .graph{
-        width:100vw;
-    }
     
+       #Home{
+        padding-top:70px;
+    }
+
+    .graph{
+        width:100px;
+    }
+  
   #contact{
     margin: -30px;
     padding: 20%;

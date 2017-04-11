@@ -1,4 +1,8 @@
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+}
 
 body{
     
@@ -36,6 +40,9 @@ p {
 
 #About {
     font-family:Monospace
+    box-sizing: border-box;
+    width: 100%;
+    overflow: visible;
     }
 
 #work{

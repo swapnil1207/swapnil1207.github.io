@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     overflow-x: hidden;
+    
 }
 
 body{
@@ -46,7 +47,7 @@ p {
     
 
 #About {
-    background: url('img/Thisisme.jpg')no-repeat;
+    background: url('img/swapnil.jpg')no-repeat;
     -moz-background-size:100% 100%;
     -webkit-background-size:100% 100%;
     background-size:100% 100%;
@@ -61,9 +62,11 @@ p {
     background-color: black;
     background-size:cover;
     background-attachment: fixed;
-    height:100vh;
+     -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+    }
 
-}
 #contact {
     height: 700px;
     margin: -30px;
@@ -74,6 +77,20 @@ p {
     background-attachment: fixed;
     
 }
+
+.image{
+
+    max-height:350px;
+    max-width: 350px;
+    min-height:100px;
+    min-width:100px;
+    border:1px;
+    border-color: whitesmoke;
+    margin-left:10px;
+    margin-right:-30px;
+}
+
+
 
 .icon {	
   margin: 5px;

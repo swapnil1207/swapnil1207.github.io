@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     overflow-x: hidden;
-    
 }
 
 body{
@@ -60,28 +59,26 @@ p {
 
 #work{
     background-color: black;
-    background-size:cover;
-    background-attachment: fixed;
-     -moz-background-size:100% 100%;
+    -moz-background-size:100% 100%;
     -webkit-background-size:100% 100%;
     background-size:100% 100%;
-    }
+    
+}
 
 #contact {
-    height: 700px;
+    height: 100vh;
     margin: -30px;
     padding: 20%;
     background-image: url("img/bg3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
-}
+    }
 
 .image{
 
-    max-height:350px;
-    max-width: 350px;
+    height:350px;
+    width: 350px;
     border:1px;
     border-color: whitesmoke;
     margin-left:10px;

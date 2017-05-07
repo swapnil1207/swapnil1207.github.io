@@ -58,10 +58,12 @@ p {
     }
 
 #work{
+    padding-top:57px;
     background-color: black;
     -moz-background-size:100% 100%;
     -webkit-background-size:100% 100%;
-    background-size:100% 100%;
+     background-size: cover;
+    background-repeat: no-repeat
     
 }
 
@@ -76,13 +78,13 @@ p {
     }
 
 .image{
-
     height:350px;
     width: 350px;
     border:1px;
     border-color: whitesmoke;
     margin-left:10px;
     margin-right:-30px;
+    padding-bottom:-10px;
 }
 
 
